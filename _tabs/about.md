@@ -7,7 +7,7 @@ order: 4
 [![roadmap.sh](https://roadmap.sh/card/tall/68ef0f4317747caa5aa6cdf7?variant=dark)](https://roadmap.sh/u/vphammer){: .right} 
 _Please check out my profile on roadmap.sh for more insight into my experience and expertise!_
 
-Hello! My name is Nathan, and welcome to my website! Here I'll be catalouging my personal and professional work that I'll be working on. 
+Hello! My name is Nathan, and welcome to my website! Here I'll be cataloguing my personal and professional work that I'll be working on. 
 
 I graduated in May 2025 with a Bachelor's degree in Network & IT Administration, and have 1-2 years of working as a network administrator. My personal strengths are related to infrastructure automation, as I have >5 years experience working with Ansible, >3 years experience working with Python, and 1 year experience with scripting in Bash.
 
