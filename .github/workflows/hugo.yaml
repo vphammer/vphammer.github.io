@@ -21,6 +21,7 @@ jobs:
       GO_VERSION: 1.26.0
       HUGO_VERSION: 0.156.0
       NODE_VERSION: 24.13.1
+      ASCIIDOCTOR_VERSION: 2.0.26
       TZ: America/Chicago
     steps:
       - name: Checkout
@@ -33,6 +34,14 @@ jobs:
         with:
           go-version: ${{ env.GO_VERSION }}
           cache: false
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 4.0
+      - name: Setup AsciiDoctor
+        uses: reitzig/actions-asciidoctor@v2.0.3
+        with:
+          version: ${{ env.ASCIIDOCTOR_VERSION }}
       - name: Setup Node.js
         uses: actions/setup-node@v6
         with:
@@ -55,6 +64,7 @@ jobs:
           echo "Go: $(go version)"
           echo "Hugo: $(hugo version)"
           echo "Node.js: $(node --version)"
+          echo "AsciiDoctor: $(asciidoctor --version)"
       - name: Install Node.js dependencies
         run: |
           [[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true
