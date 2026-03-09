@@ -30,3 +30,7 @@ home = ["html", "json"]
 mediaType = "application/json"
 baseName = "index"
 isPlainText = false
+
+[caches]
+[caches.images]
+dir = ':cacheDir/images'
