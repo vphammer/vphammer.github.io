@@ -1,0 +1,32 @@
+baseURL = 'https://vphammer.github.io'
+languageCode = 'en-us'
+title = 'vphammer'
+theme = 'github-style'
+
+[params]
+author = "Nathan Hammer"
+github = "vphammer"
+location = "Wisconsin, USA"
+avatar = "/images/avatar.png"
+favicon = "images/avatar.png"
+headerIcon = "images/github.png"
+enableSearch = true
+
+[security]
+enableInlineShortcodes = false
+[security.exec]
+allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^git$', '^npx$', '^postcss$', '^tailwindcss$', '^asciidoctor$']
+osEnv = ['(?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM|GO\w+|(XDG_CONFIG_)?HOME|USERPROFILE|SSH_AUTH_SOCK|DISPLAY|LANG|SYSTEMDRIVE|PROGRAMDATA)$']
+[security.funcs]
+getenv = ['^HUGO_', '^CI$']
+[security.http]
+methods = ['(?i)GET|POST']
+urls = ['.*']
+
+[outputs]
+home = ["html", "json"]
+
+[outputFormats.json]
+mediaType = "application/json"
+baseName = "index"
+isPlainText = false
