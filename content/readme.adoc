@@ -1,1 +1,19 @@
-placeholder text for now. once we get github actions working, i'll update this adoc
+---
+title: "Readme"
+date: 2026-03-08T20:17:38-05:00
+draft: false
+---
+image::images/banner.png[]
+== Welcome to my website!
+
+=== About Me
+
+I'm a recent college graduate who gradudated with a Bachelor's degree in IT, with a focus on networking engineering and administration. Although my background is primarily in networking, I am primarily most proficient in infrastructure and network automation.
+
+I have been using Ansible as a user since 2.9, and have been a contributor since 2.20.
+
+I have credentials and/or certifications in working with Linux, AWS, and Python. I've worked with a variety of vendors, including Cisco, Arista, Fortinet, and Dell.
+
+My current work is primarily IT support and system administration within a manufacturing environment, primarily focused on project work related to the transition of IT assets from one company to another.
+
+My preferred flavor of Linux is Fedora KDE. I prefer to use https://asciidoc.org/#compare[AsciiDoc] as opposed to Markdown.
