@@ -3,7 +3,10 @@ title: "Readme"
 date: 2026-03-08T20:17:38-05:00
 draft: false
 ---
+image::https://roadmap.sh/card/tall/68ef0f4317747caa5aa6cdf7?variant=dark&roadmaps=devops%2Clinux%2Cpython[roadmap.sh, link="https://roadmap.sh"]
+
 image::images/banner.png[]
+
 == Welcome to my website!
 
 === About Me
