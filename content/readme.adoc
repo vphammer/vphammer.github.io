@@ -17,6 +17,6 @@ I have credentials and/or certifications in working with Linux, AWS, and Python.
 
 My current work is primarily IT support and system administration within a manufacturing environment, primarily focused on project work related to the transition of IT assets from one company to another.
 
-My preferred flavor of Linux is Fedora KDE. I prefer to use https://asciidoc.org/#compare[AsciiDoc] as opposed to Markdown.
+My preferred flavor of Linux is Rocky Linux KDE. I prefer to use https://asciidoc.org/#compare[AsciiDoc] as opposed to Markdown.
 
 image::https://roadmap.sh/card/tall/68ef0f4317747caa5aa6cdf7?variant=dark&roadmaps=devops%2Clinux%2Cpython[roadmap.sh, link="https://roadmap.sh"]
