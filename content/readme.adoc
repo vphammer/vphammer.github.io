@@ -9,13 +9,13 @@ image::images/banner.png[]
 
 === About Me
 
-I'm a recent college graduate who gradudated with a Bachelor's degree in IT, with a focus on networking engineering and administration. Although my background is primarily in networking, I am primarily most proficient in infrastructure and network automation.
+I'm a recent college graduate who gradudated with a Bachelor's degree in IT, with a focus on networking engineering and administration. Although my background is primarily in networking, I am most proficient in infrastructure and network automation, where I have used tooling such as Ansible, Python, Jinja, Bash, Batch, and Powershell to automate tasks throughout my career.
 
-I have been using Ansible as a user since 2.9, and have been a contributor since 2.20.
+I have been using Ansible as a user since 2.9, and have been a contributor since 2.20. My main contributions to Ansible collections have been CI, testing, and documentation related.
 
-I have credentials and/or certifications in working with Linux, AWS, and Python. I've worked with a variety of vendors, including Cisco, Arista, Fortinet, and Dell.
+I have credentials and/or certifications in working with Linux, AWS, Azure, Google Cloud, & Python. I've worked with a variety of vendors for different equipment that I've needed to work with, including Cisco, Arista, Fortinet, Dell, HP, Juniper, Lenovo, and VMware.
 
-My current work is primarily IT support and system administration within a manufacturing environment, primarily focused on project work related to the transition of IT assets from one company to another.
+My current work is primarily IT support and system administration within a manufacturing environment, primarily focused on project work related to the transition of IT assets from one company to another. Throughout this work, I have acted as a project manager for several on-site tasks, including access point replacements, helping coordinate the migration of several servers from one domain to another, and deployment of end user devices, which includes laptops, desktops, thin clients, phones, and equipment required for manufacturing operations.
 
 My preferred flavor of Linux is Rocky Linux KDE. I prefer to use https://asciidoc.org/#compare[AsciiDoc] as opposed to Markdown.
 
