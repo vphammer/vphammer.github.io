@@ -39,7 +39,7 @@ jobs:
         with:
           ruby-version: 4.0
       - name: Setup AsciiDoctor
-        uses: reitzig/actions-asciidoctor@v2.0.3
+        uses: reitzig/actions-asciidoctor@v2.0.5
         with:
           version: ${{ env.ASCIIDOCTOR_VERSION }}
       - name: Setup Node.js
