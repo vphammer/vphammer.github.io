@@ -1,5 +1,6 @@
 name: Build and deploy
 on:
+  pull_request:
   push:
     branches:
       - main
@@ -101,6 +102,7 @@ jobs:
         with:
           path: ./public
   deploy:
+    if: github.event_name == 'push' && github.ref_name == 'main'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
