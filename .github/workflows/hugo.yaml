@@ -41,7 +41,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 4.0
+          ruby-version: 4.0.0
       - name: Setup AsciiDoctor
         uses: reitzig/actions-asciidoctor@v2.0.5
         with:
