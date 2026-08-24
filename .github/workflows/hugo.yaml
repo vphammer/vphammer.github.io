@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       # renovate: datasource=github-releases depName=gohugoio/hugo versioning=semver-coerced
-      HUGO_VERSION: 0.156.0
+      HUGO_VERSION: 0.165.0
       # renovate: datasource=rubygems depName=asciidoctor
       ASCIIDOCTOR_VERSION: 2.0.26
       TZ: America/Chicago
