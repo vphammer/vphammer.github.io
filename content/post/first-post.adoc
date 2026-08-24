@@ -1,0 +1,19 @@
+---
+title: "An introduction to my website"
+date: 2026-08-24T13:41:32-05:00
+draft: false
+summary: "A brief intro to my website, career updates, and more"
+---
+== Introduction
+Hello everyone! Despite going ahead and setting up my own website, I've never actually gone ahead and created a post on here yet, primarily because I figured if anyone were to stumble upon it, I imagine they would be able to ascertain enough from the landing page that this website exists as a general get-to-know-me, and there's really not a whole lot else that was necessary to add. However, I've recently had more time to work on the website and I figured I might as well start making a quick post on here to say, "Hey, there's more to this website than just a landing page!"
+
+== This Website
+This website is fitted to be checked automatically through GitHub Actions workflows for any updates to both the GitHub Actions themselves and the versioning for dependencies to build this website, such as Go, Hugo, Ruby, Asciidoctor, and node. For the GitHub Actions dependencies, they are checked using dependabot, and the versioning checks are done through Renovate.
+
+I've also created a workflow to ensure that this website is always able to build properly before deploying changes by creating a pipeline that requires pull requests for any change, and then running a build job within the PR before merging to ensure that any changes that I might make to the website doesn't cause it to go down.
+
+== Career Changes
+For nearly all of this last year, I had been working in an IT support/system administrator role that had been challenging but rewarding; however, it was not in line with what I had been studying in my time in college. That's why I'm very happy to be moving into a role specifically designed around developing automated IT systems, which is more in line both with my own personal interests as an IT professional and something closer to what I had been studying and perfecting during my time as an academic.
+
+== What's Next
+As it pertains to the website, I'll likely make posts when I do project work that I want to do a deep dive into on here, although otherwise there likely won't be too much activity on this website.
