@@ -1,0 +1,9 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "platform": "github",
+  "repositories": [
+    "vphammer/vphammer.github.io"
+  ],
+  "onboarding": false,
+  "requireConfig": "required"
+}

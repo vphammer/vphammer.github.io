@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    "customManagers:githubActionsVersions"
+  ],
+  "packageRules": [
+    {
+      "description": "Dependabot manages GitHub Actions in this repository",
+      "matchManagers": ["github-actions"],
+      "matchDepTypes": ["action", "github-runner"],
+      "enabled": false
+    }
+  ]
+}
