@@ -1,0 +1,7 @@
+---
+title: "Test Draft"
+date: 2026-08-24T00:16:28-05:00
+draft: true
+---
+
+This is a draft post to test my CI workflow for PRs.
